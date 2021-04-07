@@ -15,14 +15,14 @@ self.addEventListener('install', event => {
     );
     console.log('Install');
     self.skipWaiting();
-  });
+});
   
-  // retrieve assets from cache
-  self.addEventListener('fetch', event => {
+// retrieve assets from cache
+self.addEventListener('fetch', event => {
     event.respondWith(
-      caches.match(event.request).then( response => {
+        caches.match(event.request).then( response => {
         return response || fetch(event.request);
-      })
+        })
     );
-  });
+});
   
