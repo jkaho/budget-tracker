@@ -2,10 +2,30 @@
     "name": "Budget Tracker",
     "short_name": "Budget Tracker",
     "start_url": "/",
-    "background_color": "#cadbda",
-    "theme_color": "#cadbda",
+    "background_color": "#93A1E1",
+    "theme_color": "#93A1E1",
     "display": "standalone",
     "icons": [
+        {
+            "src": "images/icons/icon-76x76.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        },
+        {
+            "src": "images/icons/icon-120x120.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "images/icons/icon-152x152.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "images/icons/icon-180x180.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
         {
             "src": "images/icons/icon-192x192.png",
             "sizes": "192x192",
