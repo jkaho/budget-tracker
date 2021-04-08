@@ -1,7 +1,7 @@
-body {
+html, body {
   font-size: 120%;
   font-family: 'Quicksand', sans-serif;
-  background: #93A1E1;
+  background: #9caae2;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -9,13 +9,14 @@ body {
 }
 
 nav {
+    padding: 20px 0;
     width: 100%;
-    border-bottom: solid 1px #b1bcec;
+    background: #93A1E1;
 }
 
 #logo-img {
     display: block;
-    margin: 10px auto;
+    margin: 0 auto;
 }
 
 table {
@@ -27,6 +28,12 @@ td, th {
   /* border: 1px solid #dddddd; */
   text-align: left;
   padding: 8px;
+}
+
+th {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(63, 63, 63);
 }
 
 td {
@@ -44,6 +51,7 @@ td {
 
 .wrapper {
   margin: 10px auto;
+  margin-bottom: 50px;
   max-width: 825px;
   text-align: center;
 }
@@ -65,21 +73,27 @@ td {
   font-weight: 500;
 }
 
+#total-break {
+    border: none;
+    border-top: solid 1px #bfcbf3;
+    margin: 0;
+}
+
 .form {
   margin: 25px auto;
   width: 100%;
 }
 
 button, input {
-    font-size: 70%;
+    font-size: 60%;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
+    border-radius: 3px;
 }  
 
 .form input {
     border: solid 1px #b1bcec;
     height: 35px;
-    border-radius: 3px;
     width: 160px;
     margin: 2px 0;
 }
@@ -89,8 +103,7 @@ button, input {
     background: #475aad;
     border: none;
     height: 30px;
-    width: 30px;
-    border-radius: 100%;
+    width: 79px;
     cursor: pointer;
     margin-top: 5px;
 }
@@ -109,7 +122,7 @@ button, input {
   text-align: left;
   max-height: 300px;
   overflow: auto;
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -123,5 +136,8 @@ button, input {
 
 .chart-div {
     background: white;
+    width: 80%;
+    padding: 20px;
     border-radius: 15px;
+    margin: 0 auto;
 }
