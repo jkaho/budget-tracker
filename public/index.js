@@ -38,7 +38,7 @@ function populateTable() {
     let tr = document.createElement("tr");
     tr.innerHTML = `
       <td>${transaction.name}</td>
-      <td class=${textColor}>${transaction.value}</td>
+      <td class='${textColor} tran-amount'>${transaction.value}</td>
     `;
 
     tbody.appendChild(tr);
