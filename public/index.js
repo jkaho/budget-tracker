@@ -31,7 +31,7 @@ function populateTable() {
   transactions.forEach(transaction => {
     console.log(transaction)
     let textColor = "green";
-    if (typeof(transaction.value) === "number") {
+    if (transaction.value.toString()[0] === "-") {
       textColor = "red";
     }
     // create and populate a table row
