@@ -29,16 +29,24 @@ function populateTable() {
   tbody.innerHTML = "";
 
   transactions.forEach(transaction => {
-      console.log(transation)
+    console.log(transaction)
+    let textColor = "green";
+    if (typeof(transaction.value) === "number") {
+      textColor = "red";
+    }
     // create and populate a table row
     let tr = document.createElement("tr");
     tr.innerHTML = `
       <td>${transaction.name}</td>
-      <td>${transaction.value}</td>
+      <td class=${textColor}>${transaction.value}</td>
     `;
 
     tbody.appendChild(tr);
   });
+
+  let updatedSpan = document.getElementById("update-time");
+  updatedTime = new Date();
+  updatedSpan.textContent = updatedTime;
 }
 
 function populateChart() {
@@ -62,6 +70,9 @@ function populateChart() {
   if (myChart) {
     myChart.destroy();
   }
+
+  // add white background
+  document.getElementById("chart-div").classList.add("chart-div");
 
   let ctx = document.getElementById("myChart").getContext("2d");
 

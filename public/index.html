@@ -27,10 +27,10 @@
     </div>
 
     <div class="form">
-      <input type="text" id="t-name" placeholder="Name of transaction" />
+      <input type="text" id="t-name" placeholder="Name of transaction" /><br>
       <input type="number" min="0" id="t-amount" placeholder="Transaction amount" /><br>
-      <button id="add-btn"><i class="fa fa-plus buttons"></i> Add Funds</button>
-      <button id="sub-btn"><i class="fa fa-minus"></i> Subtract Funds</button>
+      <button id="add-btn" class="submit-btn"><i class="fa fa-plus buttons"></i></button>
+      <button id="sub-btn" class="submit-btn"><i class="fa fa-minus"></i></button>
       <p class="error"></p>
     </div>
 
@@ -42,9 +42,14 @@
         </thead>
         <tbody id="tbody"></tbody>
       </table>
+      <div id="updated">
+          LAST UPDATED <span id="update-time"></span>
+      </div>
     </div>
     
-    <canvas id="myChart"></canvas>
+    <div id="chart-div" class="chart-div">
+        <canvas id="myChart"></canvas>
+    </div>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
