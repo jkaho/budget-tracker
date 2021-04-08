@@ -34,6 +34,7 @@ function saveRecord(record) {
 }
 
 function checkDatabase() {
+  console.log("checking database!")
   // Opens a transaction on your pending db
   const transaction = db.transaction(["pending"], "readwrite");
   // Accesses your pending object store

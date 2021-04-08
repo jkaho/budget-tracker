@@ -1,12 +1,10 @@
 body {
   font-size: 120%;
-  font-family: Arial;
-}
+  font-family: 'Quicksand', sans-serif;}
 
 button, input {
   font-size: 100%;
-  font-family: Arial;
-}
+  font-family: 'Quicksand', sans-serif;}
 
 table {
   width: 100%;
