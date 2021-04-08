@@ -45,8 +45,8 @@ function populateTable() {
   });
 
   let updatedSpan = document.getElementById("update-time");
-  updatedTime = new Date();
-  updatedSpan.textContent = updatedTime;
+//   updatedTime = new Date();
+  updatedSpan.textContent = moment().format("ddd MMM DD YYYY HH:mm:ss");
 }
 
 function populateChart() {

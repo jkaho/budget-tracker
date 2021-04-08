@@ -188,3 +188,21 @@ button, input {
     width: fit-content;
     margin: 0 auto;
 }
+
+@media (max-width: 500px) {
+    .transactions-bg {
+        width: 95%;
+    }
+
+    .transactions {
+        margin-bottom: 10px;
+    }
+
+    .chart-div {
+        width: 85%;
+    }
+
+    #whitespace {
+        height: 20px;
+    }
+}
