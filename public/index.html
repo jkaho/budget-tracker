@@ -15,14 +15,20 @@
   <title>Budget Tracker</title>
 </head>
 <body>
+  <nav>
+    <img id="logo-img" src="images/logo.png" alt="Budget Tracker logo" width="250px">
+  </nav>
   <div class="wrapper">
     <div class="total">
-      <div class="total">Your total is: $<span id="total">0</span></div>
+      <div class="total">
+        <span id="total-heading">TOTAL</span><br>
+        $<span id="total">0</span>
+      </div>
     </div>
 
     <div class="form">
       <input type="text" id="t-name" placeholder="Name of transaction" />
-      <input type="number" min="0" id="t-amount" placeholder="Transaction amount" />
+      <input type="number" min="0" id="t-amount" placeholder="Transaction amount" /><br>
       <button id="add-btn"><i class="fa fa-plus buttons"></i> Add Funds</button>
       <button id="sub-btn"><i class="fa fa-minus"></i> Subtract Funds</button>
       <p class="error"></p>
