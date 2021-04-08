@@ -11,6 +11,11 @@ html {
     height: 100%;
 }
 
+body {
+    position: relative;
+    min-height: 100%;
+}
+
 nav {
     padding: 20px 0;
     width: 100%;
@@ -160,7 +165,7 @@ button, input {
 
 #footer-link {
     width: 100%;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     height: 30px;
     text-align: center;
