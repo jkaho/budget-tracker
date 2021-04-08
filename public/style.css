@@ -132,14 +132,23 @@ button, input {
 }
 
 .transactions {
-  background: white;
-  border-radius: 15px;
+    /* background: white;
+    border-radius: 15px; */
   text-align: left;
   max-height: 300px;
   overflow: auto;
-  width: 85%;
+  /* width: 85%; */
+  width: 95%;
   margin: 0 auto;
   margin-bottom: 20px;
+}
+
+.transactions-bg {
+    text-align: left;
+    background: white;
+    border-radius: 15px;
+    width: 85%;
+    margin: 0 auto;
 }
 
 #updated {
