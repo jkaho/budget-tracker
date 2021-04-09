@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="theme-color" content="#317EFB">
+    <meta name="theme-color" content="#93A1E1">
+    <!-- Icons -->
     <link rel="shortcut icon" href="images/icons/icon-192x192.png" type="image/png">
     <link rel="icon" sizes="192x192" href="images/icons/icon-192x192.png" type="image/png">
     <link rel="apple-touch-icon" sizes="76x76" href="images/icons/icon-ios-76x76.png" type="image/png">
@@ -13,10 +14,14 @@
     <link rel="apple-touch-icon" sizes="152x152" href="images/icons/icon-ios-152x152.png" type="image/png">
     <link rel="apple-touch-icon" sizes="180x180" href="images/icons/icon-ios-180x180.png" type="image/png">
     <link rel="apple-touch-icon" sizes="192x192" href="images/icons/icon-ios-192x192.png" type="image/png">
+    <!-- Manifest -->
     <link rel="manifest" href="manifest.webmanifest" />
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Custom styles -->
     <link rel="stylesheet" href="style.css">
     <title>Budget Tracker</title>
 </head>
@@ -61,14 +66,18 @@
             <canvas id="myChart"></canvas>
         </div>
     </div>
+
     <div id="whitespace"></div>
+
     <footer>
         <div id="footer-link">
             <a href="https://github.com/jkaho/budget-tracker" target="_blank">Made by jkaho | 2021</a>
         </div>
     </footer>
 
+    <!-- moment.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <!-- chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <script>
         if ("serviceWorker" in navigator) {
@@ -79,7 +88,9 @@
             });
         }
     </script>
+    <!-- IndexedDB -->
     <script src="/db.js"></script>
+    <!-- Functionality -->
     <script src="index.js"></script>
 </body>
 
