@@ -29,7 +29,7 @@ function populateTable() {
   tbody.innerHTML = "";
 
   transactions.forEach(transaction => {
-    console.log(transaction)
+    // determine colour of transaction amount text
     let textColor = "green";
     if (transaction.value.toString()[0] === "-") {
       textColor = "red";

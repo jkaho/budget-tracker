@@ -19,7 +19,7 @@ request.onsuccess = function(event) {
 };
 
 request.onerror = function(event) {
-  console.log("Woops! " + event.target.errorCode);
+  console.log("Oops! " + event.target.errorCode);
 };
 
 function saveRecord(record) {
@@ -29,12 +29,11 @@ function saveRecord(record) {
   // Accesses your pending object store
   const store = transaction.objectStore("pending");
 
-  // Adds record to your store with add method.
+  // Adds record to your store with add method
   store.add(record);
 }
 
 function checkDatabase() {
-  console.log("checking database!")
   // Opens a transaction on your pending db
   const transaction = db.transaction(["pending"], "readwrite");
   // Accesses your pending object store

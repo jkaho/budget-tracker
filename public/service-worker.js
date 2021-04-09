@@ -20,7 +20,7 @@ const FILES_TO_CACHE = [
     '/images/icons/icon-180x180.png',
     '/images/icons/icon-192x192.png',
     '/images/icons/icon-512x512.png',
-  ];
+];
 
   
 // Installs event handler
