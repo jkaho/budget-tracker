@@ -29,6 +29,7 @@ Furthermore, it was created as a project to help solidify my understanding of pr
 - npm compression package
 - HTML / CSS
 - Heroku
+- Canva
 
 ## Screenshots
 
