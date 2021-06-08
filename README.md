@@ -2,7 +2,7 @@
 
 ## Description 
 
-*Budget Tracker* is a full stack progressive web application (PWA) that allows users to keep track of their total funds. The application can be installed from the browser onto a user's desktop or mobile homepage for one-click access. In addition, for a seamless and convenient user experience, once the application is running, it will continue to function if your device goes offline. 
+*Budget Tracker* is a full stack progressive web application (PWA) that allows users to keep track of their total funds. The application can be installed from the browser onto a user's desktop or mobile for easy access. In addition, for a seamless and convenient user experience, once the application is running, it will continue to function if your device goes offline. 
 
 ## Table of Contents
 
